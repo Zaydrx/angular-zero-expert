@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
+//Imoportaciones de componentes
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 
@@ -15,4 +17,6 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
     SidebarComponent,
   ]
 })
-export class SharedModule { }
+export class SharedModule {
+
+ }
